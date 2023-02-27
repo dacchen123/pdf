@@ -1,48 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T01:28:41.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qpujYLWV6y3epr3B_5kk" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T02:52:59.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-V6EugnUE9irr8rW_VXW" version="20.8.23" type="github">
   <diagram id="ErDqVgVK9iilQ8lfl7TF" name="第 1 页">
-    <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TEfHTlGAPbN115DAPBvV-1" value="&lt;h1&gt;Java内存模型&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jjeB6mnx17xk38cIJRRu-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="180" width="280" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="TEfHTlGAPbN115DAPBvV-1" value="&lt;h1&gt;Java内存模型&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="100" width="1090" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.073;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-1" target="TEfHTlGAPbN115DAPBvV-4">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.073;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="TEfHTlGAPbN115DAPBvV-1" target="TEfHTlGAPbN115DAPBvV-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="280" as="sourcePoint" />
             <mxPoint x="300" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-3" value="并发编程中的两个问题" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-2">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-3" value="并发编程中的两个问题" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-2" vertex="1" connectable="0">
           <mxGeometry x="-0.3715" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-4" value="线程间通信&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-4" value="线程间通信&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="430" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.07;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.07;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="TEfHTlGAPbN115DAPBvV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="420" as="sourcePoint" />
             <mxPoint x="370" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-6" value="线程间同步" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-6" value="线程间同步" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="430" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-9" value="共享内存" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-9" value="共享内存" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="600" width="100" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-10" value="消息传递" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-10" value="消息传递" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="600" width="100" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-11" value="线程间以何种机制交换信息" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-11" value="线程间以何种机制交换信息" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="140" y="350" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-13" value="不同线程间操作&lt;br&gt;发生相对顺序" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-13" value="不同线程间操作&lt;br&gt;发生相对顺序" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="380" y="400" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-4" target="TEfHTlGAPbN115DAPBvV-9">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-4" target="TEfHTlGAPbN115DAPBvV-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="540" as="sourcePoint" />
             <mxPoint x="290" y="490" as="targetPoint" />
@@ -52,12 +55,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-15" value="隐式通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-14">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-15" value="隐式通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-14" vertex="1" connectable="0">
           <mxGeometry x="0.0885" y="6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.375;exitY=1.059;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-4" target="TEfHTlGAPbN115DAPBvV-10">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.375;exitY=1.059;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-4" target="TEfHTlGAPbN115DAPBvV-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="474" as="sourcePoint" />
             <mxPoint x="180" y="627" as="targetPoint" />
@@ -71,12 +74,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-17" value="显式通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-16">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-17" value="显式通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-16" vertex="1" connectable="0">
           <mxGeometry x="0.0885" y="6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-19" value="" style="endArrow=classic;html=1;exitX=0.45;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-6" target="TEfHTlGAPbN115DAPBvV-9">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-19" value="" style="endArrow=classic;html=1;exitX=0.45;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="TEfHTlGAPbN115DAPBvV-6" target="TEfHTlGAPbN115DAPBvV-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="580" as="sourcePoint" />
             <mxPoint x="490" y="530" as="targetPoint" />
@@ -86,12 +89,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-20" value="显式同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-19">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-20" value="显式同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-19" vertex="1" connectable="0">
           <mxGeometry x="-0.3279" y="-2" relative="1" as="geometry">
             <mxPoint x="2" y="44" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-6" target="TEfHTlGAPbN115DAPBvV-10">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="TEfHTlGAPbN115DAPBvV-6" target="TEfHTlGAPbN115DAPBvV-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="580" as="sourcePoint" />
             <mxPoint x="540" y="530" as="targetPoint" />
@@ -104,15 +107,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-22" value="隐式同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-21">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-22" value="隐式同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-21" vertex="1" connectable="0">
           <mxGeometry x="-0.2635" y="2" relative="1" as="geometry">
             <mxPoint x="8" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-23" value="Java并发采用" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-23" value="Java并发采用" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="180" y="570" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-24" value="" style="endArrow=classic;html=1;exitX=0.368;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-1" target="TEfHTlGAPbN115DAPBvV-26">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-24" value="" style="endArrow=classic;html=1;exitX=0.368;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="TEfHTlGAPbN115DAPBvV-1" target="TEfHTlGAPbN115DAPBvV-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="360" as="sourcePoint" />
             <mxPoint x="620" y="410" as="targetPoint" />
@@ -122,170 +125,170 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-25" value="抽象示意图" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-24">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-25" value="抽象示意图" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-24" vertex="1" connectable="0">
           <mxGeometry x="-0.1789" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="790" width="530" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-28" value="线程A" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-28" value="线程A" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="840" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-29" value="线程B" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-29" value="线程B" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="840" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-31" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=flexArrow;startArrow=block;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-32" target="TEfHTlGAPbN115DAPBvV-28">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-31" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=flexArrow;startArrow=block;" parent="1" source="TEfHTlGAPbN115DAPBvV-32" target="TEfHTlGAPbN115DAPBvV-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="970" as="sourcePoint" />
             <mxPoint x="200" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-32" value="本地内存A&lt;br&gt;（共享变量的副本）" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-32" value="本地内存A&lt;br&gt;（共享变量的副本）" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="960" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-34" value="本地内存B&lt;br&gt;（共享变量的副本）" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-34" value="本地内存B&lt;br&gt;（共享变量的副本）" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="960" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-35" value="" style="endArrow=classic;html=1;shape=flexArrow;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=block;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-34" target="TEfHTlGAPbN115DAPBvV-29">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-35" value="" style="endArrow=classic;html=1;shape=flexArrow;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=block;" parent="1" source="TEfHTlGAPbN115DAPBvV-34" target="TEfHTlGAPbN115DAPBvV-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="960" as="sourcePoint" />
             <mxPoint x="500" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-36" value="主内存&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-36" value="主内存&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="130" y="1130" width="360" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-37" value="共享变量" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-37" value="共享变量" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="160" y="1160" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-38" value="共享变量" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-38" value="共享变量" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="260" y="1160" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-39" value="共享变量" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-39" value="共享变量" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="370" y="1160" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-40" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.111;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-36" target="TEfHTlGAPbN115DAPBvV-32">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-40" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.111;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-36" target="TEfHTlGAPbN115DAPBvV-32" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="160" y="1130" as="sourcePoint" />
             <mxPoint x="260" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-41" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;exitX=0.908;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-36">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-41" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;exitX=0.908;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-36" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="450" y="1130" as="sourcePoint" />
             <mxPoint x="460" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-42" value="" style="endArrow=classic;html=1;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-42" value="" style="endArrow=classic;html=1;startArrow=classic;startFill=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="1060" as="sourcePoint" />
             <mxPoint x="450" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-43" value="JMM控制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-42">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-43" value="JMM控制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-42" vertex="1" connectable="0">
           <mxGeometry x="0.2148" y="-5" relative="1" as="geometry">
             <mxPoint x="-24" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-44" value="可见性保证" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-44" value="可见性保证" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="440" y="750" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="780" y="320" as="sourcePoint" />
             <mxPoint x="765" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-46" value="处理源代码到指令序列的重排序" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-46" value="处理源代码到指令序列的重排序" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="705" y="310" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-47" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=none;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-47" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=none;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="715" y="394" as="sourcePoint" />
             <mxPoint x="765" y="344" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=none;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=none;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="815" y="394" as="sourcePoint" />
             <mxPoint x="765" y="344" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-49" value="JMM编译器重排序规则" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-49" value="JMM编译器重排序规则" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="396" width="70" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-50" value="JMM处理器重排序规则" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-50" value="JMM处理器重排序规则" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="396" width="70" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-51" value="禁止特定类型编译器重排序" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-51" value="禁止特定类型编译器重排序" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="498" width="80" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-52" value="插入特定类型内存屏障指令" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-52" value="插入特定类型内存屏障指令" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="498" width="80" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-53" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TEfHTlGAPbN115DAPBvV-51">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-53" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="TEfHTlGAPbN115DAPBvV-51" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="430" as="sourcePoint" />
             <mxPoint x="800" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-54" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-50">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-54" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-50" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="890" y="500" as="sourcePoint" />
             <mxPoint x="815" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-55" value="Java编译器&lt;br&gt;生成指令序列时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-54">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-55" value="Java编译器&lt;br&gt;生成指令序列时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-54" vertex="1" connectable="0">
           <mxGeometry x="-0.4" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-56" value="&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;（语言级的内存模型，确保在不同的编译器和不同处理器平台上，为程序员提供一致的内存可见性保证）&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-56" value="&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;（语言级的内存模型，确保在不同的编译器和不同处理器平台上，为程序员提供一致的内存可见性保证）&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="220" y="60" width="580" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-57" value="" style="endArrow=classic;html=1;exitX=0.679;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-1" target="TEfHTlGAPbN115DAPBvV-59">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-57" value="" style="endArrow=classic;html=1;exitX=0.679;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-1" target="TEfHTlGAPbN115DAPBvV-59" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="380" as="sourcePoint" />
             <mxPoint x="960" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-58" value="现代处理器都会使用写缓冲区" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-57">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-58" value="现代处理器都会使用写缓冲区" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-57" vertex="1" connectable="0">
           <mxGeometry x="-0.3505" y="2" relative="1" as="geometry">
             <mxPoint x="-2" y="43" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-59" value="允许对写-读操作进行重排序" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-59" value="允许对写-读操作进行重排序" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="310" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-65" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;sketch=1;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-65" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;sketch=1;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="800" y="475" width="35" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-66" value="读读" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-66" value="读读" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="725" y="570" width="40" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-67" value="写写" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-67" value="写写" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="570" width="40" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-68" value="读写" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-68" value="读写" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="815" y="570" width="40" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-69" value="写读" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-69" value="写读" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="865" y="570" width="40" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-70" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-59" target="TEfHTlGAPbN115DAPBvV-69">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-70" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-59" target="TEfHTlGAPbN115DAPBvV-69" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1040" y="540" as="sourcePoint" />
             <mxPoint x="1090" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-71" value="现代处理器大多支持的屏障" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-70">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-71" value="现代处理器大多支持的屏障" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-70" vertex="1" connectable="0">
           <mxGeometry x="-0.3688" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-72" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-66" target="TEfHTlGAPbN115DAPBvV-69">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-72" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-66" target="TEfHTlGAPbN115DAPBvV-69" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="820" y="720" as="sourcePoint" />
             <mxPoint x="870" y="670" as="targetPoint" />
@@ -295,7 +298,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-73" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-67" target="TEfHTlGAPbN115DAPBvV-69">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-73" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-67" target="TEfHTlGAPbN115DAPBvV-69" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="755" y="614" as="sourcePoint" />
             <mxPoint x="895" y="614" as="targetPoint" />
@@ -305,7 +308,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-74" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-68" target="TEfHTlGAPbN115DAPBvV-69">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-74" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-68" target="TEfHTlGAPbN115DAPBvV-69" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="614" as="sourcePoint" />
             <mxPoint x="895" y="614" as="targetPoint" />
@@ -315,55 +318,55 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-75" value="写读屏障具有其他3个屏障的效果，同时执行此屏障开销很昂贵" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-75" value="写读屏障具有其他3个屏障的效果，同时执行此屏障开销很昂贵" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="890" y="600" width="170" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-76" value="" style="endArrow=classic;html=1;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TEfHTlGAPbN115DAPBvV-78">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-76" value="" style="endArrow=classic;html=1;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="TEfHTlGAPbN115DAPBvV-78" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1190" y="160" as="sourcePoint" />
             <mxPoint x="1187" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-77" value="阐述操作间的内存可见性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-76">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-77" value="阐述操作间的内存可见性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-76" vertex="1" connectable="0">
           <mxGeometry x="-0.5328" relative="1" as="geometry">
             <mxPoint x="2" y="38" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-78" value="happens-before规则" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-78" value="happens-before规则" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="300" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-80" value="编译器和处理器重排序规则" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-80" value="编译器和处理器重排序规则" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="400" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-81" value="" style="endArrow=classic;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-78" target="TEfHTlGAPbN115DAPBvV-80">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-81" value="" style="endArrow=classic;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-78" target="TEfHTlGAPbN115DAPBvV-80" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1240" y="400" as="sourcePoint" />
             <mxPoint x="1290" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-82" value="一对多" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-81">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-82" value="一对多" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-81" vertex="1" connectable="0">
           <mxGeometry x="-0.3103" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-83" value="避免程序员为理解JMM提供的内存可见性保证而去学习复杂的重排序规则及其实现" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-83" value="避免程序员为理解JMM提供的内存可见性保证而去学习复杂的重排序规则及其实现" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1250" y="284" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-84" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-84" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="TEfHTlGAPbN115DAPBvV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1610" y="340" as="sourcePoint" />
             <mxPoint x="1480" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-86" value="为了遵守as-if-serial语义" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-84">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-86" value="为了遵守as-if-serial语义" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-84" vertex="1" connectable="0">
           <mxGeometry x="0.0281" relative="1" as="geometry">
             <mxPoint y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-85" value="单线程中，编译器和处理器&lt;b&gt;不会&lt;/b&gt;对存在&lt;b&gt;数据依赖关系&lt;/b&gt;的操作做&lt;b&gt;重排序&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-85" value="单线程中，编译器和处理器&lt;b&gt;不会&lt;/b&gt;对存在&lt;b&gt;数据依赖关系&lt;/b&gt;的操作做&lt;b&gt;重排序&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="1410" y="532" width="140" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-87" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-78" target="TEfHTlGAPbN115DAPBvV-88">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-87" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="TEfHTlGAPbN115DAPBvV-78" target="TEfHTlGAPbN115DAPBvV-88" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1200" y="570" as="sourcePoint" />
             <mxPoint x="1160" y="520" as="targetPoint" />
@@ -374,38 +377,38 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-89" value="当两个操作间具有happens-before关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-87">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-89" value="当两个操作间具有happens-before关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-87" vertex="1" connectable="0">
           <mxGeometry x="0.033" y="-3" relative="1" as="geometry">
             <mxPoint x="83" y="53" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-88" value="并不意味前一个操作必须在后一个操作前执行" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-88" value="并不意味前一个操作必须在后一个操作前执行" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="570" width="150" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-90" value="前一个操作(执行的结果)&lt;br&gt;对后一个操作可见" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-90" value="前一个操作(执行的结果)&lt;br&gt;对后一个操作可见" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="700" width="150" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-91" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-88" target="TEfHTlGAPbN115DAPBvV-90">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-91" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="TEfHTlGAPbN115DAPBvV-88" target="TEfHTlGAPbN115DAPBvV-90" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1250" y="650" as="sourcePoint" />
             <mxPoint x="1300" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-92" value="前一个操作按顺序排在第二个操作之前" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-92" value="前一个操作按顺序排在第二个操作之前" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="1230" y="700" width="110" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-93" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-88" target="TEfHTlGAPbN115DAPBvV-92">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-93" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="TEfHTlGAPbN115DAPBvV-88" target="TEfHTlGAPbN115DAPBvV-92" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1320" y="670" as="sourcePoint" />
             <mxPoint x="1370" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-94" value="仅要求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEfHTlGAPbN115DAPBvV-93">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-94" value="仅要求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TEfHTlGAPbN115DAPBvV-93" vertex="1" connectable="0">
           <mxGeometry x="0.2045" y="1" relative="1" as="geometry">
             <mxPoint x="-58" y="-26" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-95" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.571;entryY=-0.085;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-1" target="TEfHTlGAPbN115DAPBvV-96">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-95" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.571;entryY=-0.085;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TEfHTlGAPbN115DAPBvV-1" target="TEfHTlGAPbN115DAPBvV-96" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1600" y="400" as="sourcePoint" />
             <mxPoint x="1620" y="510" as="targetPoint" />
@@ -416,17 +419,137 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-96" value="单线程中，对存在&lt;b&gt;控制依赖&lt;/b&gt;的操作&lt;b&gt;重排序&lt;/b&gt;，&lt;b&gt;不会改变执行结果&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-96" value="单线程中，对存在&lt;b&gt;控制依赖&lt;/b&gt;的操作&lt;b&gt;重排序&lt;/b&gt;，&lt;b&gt;不会改变执行结果&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="1560" y="532" width="140" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-98" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;sketch=1;rotation=90;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-98" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;sketch=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="1550" y="498" width="20" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-99" value="&lt;b&gt;多线程中，不存在数据以来，但有控制依赖的操作重排序，可能会改变程序的执行结果&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-99" value="&lt;b&gt;多线程中，不存在数据以来，但有控制依赖的操作重排序，可能会改变程序的执行结果&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="1500" y="625" width="120" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="TEfHTlGAPbN115DAPBvV-100" value="&lt;b&gt;猜测执行&lt;/b&gt;导致" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TEfHTlGAPbN115DAPBvV-100" value="&lt;b&gt;猜测执行&lt;/b&gt;导致" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1620" y="646" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-1" value="&lt;h1&gt;顺序一致性内存模型&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="100" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TEfHTlGAPbN115DAPBvV-1" target="jjeB6mnx17xk38cIJRRu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="60" as="sourcePoint" />
+            <mxPoint x="1640" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-3" value="&lt;b&gt;参照&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-4" value="理论参考模型" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=none;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1870" y="280" as="sourcePoint" />
+            <mxPoint x="1920" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=none;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;startArrow=classic;startFill=1;exitX=0.558;exitY=-0.147;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1970" y="280" as="sourcePoint" />
+            <mxPoint x="1920" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1950" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-7" value="特性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-8" value="单线程所有操作必须按程序的顺序执行" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="284" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-9" value="&lt;b&gt;所有线程&lt;/b&gt;都只能看到一个&lt;b&gt;单一的操作执行顺序&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="350" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-12" value="不管程序是否同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000" y="500" as="sourcePoint" />
+            <mxPoint x="1965" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-14" value="每个操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-15" value="&lt;b&gt;原子执行&lt;/b&gt;且&lt;b&gt;立刻&lt;/b&gt;对所有线程&lt;b&gt;可见&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="480" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-18" value="&lt;b&gt;JMM中没有这个保证。&lt;/b&gt;&lt;br&gt;未同步程序不但整体的执行顺序无序，且所有线程看到的操作执行顺序也可能不一致" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-19" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjMyIiB3aWR0aD0iMzIiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgY2xhc3M9Imljb24iPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik01MTIgNTEybS01MTIgMGE1MTIgNTEyIDAgMSAwIDEwMjQgMCA1MTIgNTEyIDAgMSAwLTEwMjQgMFoiLz48cGF0aCBmaWxsPSIjM0U5REZGIiBkPSJNNTEyIDEwMjRhNTEyIDUxMiAwIDEgMSA1MTItNTEyIDUxMiA1MTIgMCAwIDEtNTEyIDUxMnpNNTEyIDE5MmEzMjAgMzIwIDAgMSAwIDMyMCAzMjAgMzIwIDMyMCAwIDAgMC0zMjAtMzIweiIvPjwvc3ZnPg==;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="158" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-20" value="&lt;b&gt;具体实现上：不改变正确同步程序的执行结果的前提下，尽可能为编译器和处理器优化打开方便之门&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="980" y="60" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-21" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjMyIiB3aWR0aD0iMzIiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgY2xhc3M9Imljb24iPjxwYXRoIGZpbGw9IiMzNjgzRTgiIGQ9Ik01MjguOTQyNTQ1IDM3LjI4MjkwOWw0MjMuNTYzNjM3IDkzMS44ODY1NDZhMTguNjE4MTgyIDE4LjYxODE4MiAwIDAgMS0yNi41MzA5MDkgMjMuNjQ1MDlMNTE2LjA5NiA3NDQuNzI3MjczbC00MTguNTM2NzI3IDI0OC45MjUwOTFhMTguNjE4MTgyIDE4LjYxODE4MiAwIDAgMS0yNi41MzA5MDktMjMuNzM4MTgyTDQ5NS4xMDQgMzcuMzI5NDU1YTE4LjYxODE4MiAxOC42MTgxODIgMCAwIDEgMzMuODg1MDkxIDB6Ii8+PC9zdmc+;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="28" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-22" value="&lt;h1&gt;volatile内存语义&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="865" y="860" width="325" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.138;exitY=1.167;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="1020" as="sourcePoint" />
+            <mxPoint x="910" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;sketch=1;rotation=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1030" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-25" value="执行效果相同" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="845" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-27" value="一个volatile变量的单个读/写操作" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1060" width="100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-28" value="一个普通变量的读/写操作都使用同一个锁同步" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="915" y="1060" width="135" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-29" value="" style="endArrow=none;html=1;rounded=0;sketch=1;exitX=0.785;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-22" target="jjeB6mnx17xk38cIJRRu-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="1030" as="sourcePoint" />
+            <mxPoint x="1117" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-30" value="特性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-31" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;sketch=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1070" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-34" value="&lt;b&gt;可见性&lt;/b&gt;。读总能看见最后的写入" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1140" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-35" value="&lt;b&gt;原子性&lt;/b&gt;。单个的读/写具有原子性" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1140" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-36" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="1030" as="sourcePoint" />
+            <mxPoint x="1480" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-37" value="内存语义角度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1025" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-38" value="volatile写——读" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1165" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-39" value="锁的释放——获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1165" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
