@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T02:52:59.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-V6EugnUE9irr8rW_VXW" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T03:28:03.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="nDvczezRKXctikOsUgLu" version="20.8.23" type="github">
   <diagram id="ErDqVgVK9iilQ8lfl7TF" name="第 1 页">
     <mxGraphModel dx="1434" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jjeB6mnx17xk38cIJRRu-64" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1234" width="410" height="346" as="geometry" />
+        </mxCell>
         <mxCell id="jjeB6mnx17xk38cIJRRu-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="1790" y="180" width="280" height="340" as="geometry" />
         </mxCell>
@@ -545,11 +548,153 @@
         <mxCell id="jjeB6mnx17xk38cIJRRu-37" value="内存语义角度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1420" y="1025" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jjeB6mnx17xk38cIJRRu-38" value="volatile写——读" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1165" width="90" height="30" as="geometry" />
+        <mxCell id="jjeB6mnx17xk38cIJRRu-38" value="&lt;b&gt;volatile写——读&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1165" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jjeB6mnx17xk38cIJRRu-39" value="锁的释放——获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jjeB6mnx17xk38cIJRRu-39" value="&lt;b&gt;锁的释放——获取&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1520" y="1165" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-41" value="" style="endArrow=none;html=1;rounded=0;sketch=1;strokeWidth=2;endFill=0;startArrow=async;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="1175" as="sourcePoint" />
+            <mxPoint x="1510" y="1175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-42" value="" style="endArrow=none;html=1;rounded=0;sketch=1;endFill=0;startArrow=async;startFill=1;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="1184" as="sourcePoint" />
+            <mxPoint x="1450" y="1184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-43" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1280" y="1270" as="sourcePoint" />
+            <mxPoint x="1280" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-44" value="写一个volatile变量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1325" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-45" value="&lt;b&gt;JMM将该线程对应的本地内存中的共享变量刷新到主内存&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1405" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-46" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="1270" as="sourcePoint" />
+            <mxPoint x="1470" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-47" value="读一个volatile变量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1325" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-48" value="&lt;b&gt;JMM将该线程对应的本地内存置为无效，从主内存读取共享变量&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="1405" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-49" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;sketch=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1150" width="10" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-52" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1379" y="1195" as="sourcePoint" />
+            <mxPoint x="1379" y="1255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-53" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;sketch=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1360" width="20" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-54" value="实质上是线程之间通过主内存发送消息" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1510" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-55" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjMyIiB3aWR0aD0iMzIiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgY2xhc3M9Imljb24iPjxwYXRoIGZpbGw9IiNmZmMxMDIiIGQ9Ik01MTIgNTA1Ljk5MjUzMzMzbS0yOTQuOTEyIDBhMjk0LjkxMiAyOTQuOTEyIDAgMSAwIDU4OS44MjQgMCAyOTQuOTEyIDI5NC45MTIgMCAxIDAtNTg5LjgyNCAwWiIvPjxwYXRoIGZpbGw9IiNmZmMxMDIiIGQ9Ik01MTUuODIyOTMzMzMgMTU4LjEwNTZoLTIuNzMwNjY2NjZjLTE2LjM4NCAwLTI5LjQ5MTItMTMuMTA3Mi0yOS40OTEyLTI5LjQ5MTJWNjQuMTcwNjY2NjdjMC0xNi4zODQgMTMuMTA3Mi0yOS40OTEyIDI5LjQ5MTItMjkuNDkxMmgyLjczMDY2NjY2YzE2LjM4NCAwIDI5LjQ5MTIgMTMuMTA3MiAyOS40OTEyIDI5LjQ5MTJ2NjQuNDQzNzMzMzNjMC41NDYxMzMzMyAxNi4zODQtMTMuMTA3MiAyOS40OTEyLTI5LjQ5MTIgMjkuNDkxMnpNMjQyLjc1NjI2NjY3IDI2My41MDkzMzMzM2wtMS42Mzg0IDEuNjM4NGMtMTEuNDY4OCAxMS40Njg4LTMwLjU4MzQ2NjY3IDExLjQ2ODgtNDIuMDUyMjY2NjcgMGwtNDUuMzI5MDY2NjctNDUuMzI5MDY2NjZjLTExLjQ2ODgtMTEuNDY4OC0xMS40Njg4LTMwLjU4MzQ2NjY3IDAtNDIuMDUyMjY2NjdsMS42Mzg0LTEuNjM4NGMxMS40Njg4LTExLjQ2ODggMzAuNTgzNDY2NjctMTEuNDY4OCA0Mi4wNTIyNjY2NyAwbDQ1LjMyOTA2NjY3IDQ1LjMyOTA2NjY3YzExLjQ2ODggMTEuNDY4OCAxMS40Njg4IDMwLjU4MzQ2NjY3IDAgNDIuMDUyMjY2NjZ6TTEwMDUuMTU4NCA0NjEuMjA5NnYyLjczMDY2NjY3YzAgMTYuMzg0LTEzLjEwNzIgMjkuNDkxMi0yOS40OTEyIDI5LjQ5MTJoLTY0LjQ0MzczMzMzYy0xNi4zODQgMC0yOS40OTEyLTEzLjEwNzItMjkuNDkxMi0yOS40OTEydi0yLjczMDY2NjY3YzAtMTYuMzg0IDEzLjEwNzItMjkuNDkxMiAyOS40OTEyLTI5LjQ5MTJoNjQuNDQzNzMzMzNjMTYuMzg0LTAuNTQ2MTMzMzMgMjkuNDkxMiAxMy4xMDcyIDI5LjQ5MTIgMjkuNDkxMnpNMTQ0Ljk5ODQgNDU5LjU3MTJ2Mi43MzA2NjY2N2MwIDE2LjM4NC0xMy4xMDcyIDI5LjQ5MTItMjkuNDkxMiAyOS40OTEySDUxLjA2MzQ2NjY3Yy0xNi4zODQgMC0yOS40OTEyLTEzLjEwNzItMjkuNDkxMi0yOS40OTEydi0yLjczMDY2NjY3YzAtMTYuMzg0IDEzLjEwNzItMjkuNDkxMiAyOS40OTEyLTI5LjQ5MTJoNjQuNDQzNzMzMzNjMTYuMzg0IDAgMjkuNDkxMiAxMy4xMDcyIDI5LjQ5MTIgMjkuNDkxMnpNODcyLjk5NDEzMzMzIDE3OC44NTg2NjY2N2wxLjYzODQgMS42Mzg0YzExLjQ2ODggMTEuNDY4OCAxMS40Njg4IDMwLjU4MzQ2NjY3IDAgNDIuMDUyMjY2NjZsLTQ1LjMyOTA2NjY2IDQ1LjMyOTA2NjY3Yy0xMS40Njg4IDExLjQ2ODgtMzAuNTgzNDY2NjcgMTEuNDY4OC00Mi4wNTIyNjY2NyAwbC0xLjYzODQtMS42Mzg0Yy0xMS40Njg4LTExLjQ2ODgtMTEuNDY4OC0zMC41ODM0NjY2NyAwLTQyLjA1MjI2NjY3bDQ1LjMyOTA2NjY3LTQ1LjMyOTA2NjY2YzExLjQ2ODgtMTIuMDE0OTMzMzMgMzAuNTgzNDY2NjctMTIuMDE0OTMzMzMgNDIuMDUyMjY2NjYgMHpNNjIwLjY4MDUzMzMzIDg5MS41NjI2NjY2N0g0MDMuODY1NmMtMTYuOTMwMTMzMzMgMC0zMS4xMjk2LTE0LjE5OTQ2NjY3LTMxLjEyOTYtMzEuMTI5NnMxNC4xOTk0NjY2Ny0zMS4xMjk2IDMxLjEyOTYtMzEuMTI5NmgyMTYuODE0OTMzMzNjMTYuOTMwMTMzMzMgMCAzMS4xMjk2IDE0LjE5OTQ2NjY3IDMxLjEyOTYgMzEuMTI5Ni0wLjU0NjEzMzMzIDE2LjkzMDEzMzMzLTE0LjE5OTQ2NjY3IDMxLjEyOTYtMzEuMTI5NiAzMS4xMjk2ek01NTYuMjM2OCA5ODQuNDA1MzMzMzNINDY3Ljc2MzJjLTE2LjkzMDEzMzMzIDAtMzEuMTI5Ni0xNC4xOTk0NjY2Ny0zMS4xMjk2LTMxLjEyOTZzMTQuMTk5NDY2NjctMzEuMTI5NiAzMS4xMjk2LTMxLjEyOTZoODguNDczNmMxNi45MzAxMzMzMyAwIDMxLjEyOTYgMTQuMTk5NDY2NjcgMzEuMTI5NiAzMS4xMjk2cy0xNC4xOTk0NjY2NyAzMS4xMjk2LTMxLjEyOTYgMzEuMTI5NnoiLz48cGF0aCBmaWxsPSIiIGQ9Ik01MTUuNTg0IDE1OC44OTA2NjY2N2gtMi41NmMtMTUuMzYgMC0yNy42NDgtMTIuMjg4LTI3LjY0OC0yNy42NDhWNzAuODI2NjY2NjdjMC0xNS4zNiAxMi4yODgtMjcuNjQ4IDI3LjY0OC0yNy42NDhoMi41NmMxNS4zNiAwIDI3LjY0OCAxMi4yODggMjcuNjQ4IDI3LjY0OHY2MC40MTZjMC41MTIgMTUuMzYtMTIuMjg4IDI3LjY0OC0yNy42NDggMjcuNjQ4eiIvPjxwYXRoIGZpbGw9IiNmZmMxMDIiIGQ9Ik01MTUuODIyOTMzMzMgMTU4LjEwNTZoLTIuNzMwNjY2NjZjLTE2LjM4NCAwLTI5LjQ5MTItMTMuMTA3Mi0yOS40OTEyLTI5LjQ5MTJWNjQuMTcwNjY2NjdjMC0xNi4zODQgMTMuMTA3Mi0yOS40OTEyIDI5LjQ5MTItMjkuNDkxMmgyLjczMDY2NjY2YzE2LjM4NCAwIDI5LjQ5MTIgMTMuMTA3MiAyOS40OTEyIDI5LjQ5MTJ2NjQuNDQzNzMzMzNjMC41NDYxMzMzMyAxNi4zODQtMTMuMTA3MiAyOS40OTEyLTI5LjQ5MTIgMjkuNDkxMnoiLz48L3N2Zz4=;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1238" y="1510" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-56" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1690" y="930" as="sourcePoint" />
+            <mxPoint x="1860" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-57" value="实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-58" value="四大屏障" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="860" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-59" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1980" y="1020" as="sourcePoint" />
+            <mxPoint x="1920" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-60" value="实际执行时" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="964" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-61" value="编译器根据具体情况省略不必要的屏障" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1055" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-62" value="只要不改变volatile写-读的内存语义" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1054" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-63" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.012;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-62" target="jjeB6mnx17xk38cIJRRu-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1880" y="1310" as="sourcePoint" />
+            <mxPoint x="1680" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1800" y="1418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-65" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1920" y="1090" as="sourcePoint" />
+            <mxPoint x="1920" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-66" value="X86处理器" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1270" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-67" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;sketch=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="1258" width="20" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-68" value="X64" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-69" value="AMD64" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1304" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-70" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="1450" as="sourcePoint" />
+            <mxPoint x="1920" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-71" value="&lt;b&gt;仅对写-读操作重排序&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1439" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-72" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjMyIiB3aWR0aD0iMzIiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgY2xhc3M9Imljb24iPjxwYXRoIGZpbGw9IiNmZmMxMDIiIGQ9Ik01MTIgNTA1Ljk5MjUzMzMzbS0yOTQuOTEyIDBhMjk0LjkxMiAyOTQuOTEyIDAgMSAwIDU4OS44MjQgMCAyOTQuOTEyIDI5NC45MTIgMCAxIDAtNTg5LjgyNCAwWiIvPjxwYXRoIGZpbGw9IiNmZmMxMDIiIGQ9Ik01MTUuODIyOTMzMzMgMTU4LjEwNTZoLTIuNzMwNjY2NjZjLTE2LjM4NCAwLTI5LjQ5MTItMTMuMTA3Mi0yOS40OTEyLTI5LjQ5MTJWNjQuMTcwNjY2NjdjMC0xNi4zODQgMTMuMTA3Mi0yOS40OTEyIDI5LjQ5MTItMjkuNDkxMmgyLjczMDY2NjY2YzE2LjM4NCAwIDI5LjQ5MTIgMTMuMTA3MiAyOS40OTEyIDI5LjQ5MTJ2NjQuNDQzNzMzMzNjMC41NDYxMzMzMyAxNi4zODQtMTMuMTA3MiAyOS40OTEyLTI5LjQ5MTIgMjkuNDkxMnpNMjQyLjc1NjI2NjY3IDI2My41MDkzMzMzM2wtMS42Mzg0IDEuNjM4NGMtMTEuNDY4OCAxMS40Njg4LTMwLjU4MzQ2NjY3IDExLjQ2ODgtNDIuMDUyMjY2NjcgMGwtNDUuMzI5MDY2NjctNDUuMzI5MDY2NjZjLTExLjQ2ODgtMTEuNDY4OC0xMS40Njg4LTMwLjU4MzQ2NjY3IDAtNDIuMDUyMjY2NjdsMS42Mzg0LTEuNjM4NGMxMS40Njg4LTExLjQ2ODggMzAuNTgzNDY2NjctMTEuNDY4OCA0Mi4wNTIyNjY2NyAwbDQ1LjMyOTA2NjY3IDQ1LjMyOTA2NjY3YzExLjQ2ODggMTEuNDY4OCAxMS40Njg4IDMwLjU4MzQ2NjY3IDAgNDIuMDUyMjY2NjZ6TTEwMDUuMTU4NCA0NjEuMjA5NnYyLjczMDY2NjY3YzAgMTYuMzg0LTEzLjEwNzIgMjkuNDkxMi0yOS40OTEyIDI5LjQ5MTJoLTY0LjQ0MzczMzMzYy0xNi4zODQgMC0yOS40OTEyLTEzLjEwNzItMjkuNDkxMi0yOS40OTEydi0yLjczMDY2NjY3YzAtMTYuMzg0IDEzLjEwNzItMjkuNDkxMiAyOS40OTEyLTI5LjQ5MTJoNjQuNDQzNzMzMzNjMTYuMzg0LTAuNTQ2MTMzMzMgMjkuNDkxMiAxMy4xMDcyIDI5LjQ5MTIgMjkuNDkxMnpNMTQ0Ljk5ODQgNDU5LjU3MTJ2Mi43MzA2NjY2N2MwIDE2LjM4NC0xMy4xMDcyIDI5LjQ5MTItMjkuNDkxMiAyOS40OTEySDUxLjA2MzQ2NjY3Yy0xNi4zODQgMC0yOS40OTEyLTEzLjEwNzItMjkuNDkxMi0yOS40OTEydi0yLjczMDY2NjY3YzAtMTYuMzg0IDEzLjEwNzItMjkuNDkxMiAyOS40OTEyLTI5LjQ5MTJoNjQuNDQzNzMzMzNjMTYuMzg0IDAgMjkuNDkxMiAxMy4xMDcyIDI5LjQ5MTIgMjkuNDkxMnpNODcyLjk5NDEzMzMzIDE3OC44NTg2NjY2N2wxLjYzODQgMS42Mzg0YzExLjQ2ODggMTEuNDY4OCAxMS40Njg4IDMwLjU4MzQ2NjY3IDAgNDIuMDUyMjY2NjZsLTQ1LjMyOTA2NjY2IDQ1LjMyOTA2NjY3Yy0xMS40Njg4IDExLjQ2ODgtMzAuNTgzNDY2NjcgMTEuNDY4OC00Mi4wNTIyNjY2NyAwbC0xLjYzODQtMS42Mzg0Yy0xMS40Njg4LTExLjQ2ODgtMTEuNDY4OC0zMC41ODM0NjY2NyAwLTQyLjA1MjI2NjY3bDQ1LjMyOTA2NjY3LTQ1LjMyOTA2NjY2YzExLjQ2ODgtMTIuMDE0OTMzMzMgMzAuNTgzNDY2NjctMTIuMDE0OTMzMzMgNDIuMDUyMjY2NjYgMHpNNjIwLjY4MDUzMzMzIDg5MS41NjI2NjY2N0g0MDMuODY1NmMtMTYuOTMwMTMzMzMgMC0zMS4xMjk2LTE0LjE5OTQ2NjY3LTMxLjEyOTYtMzEuMTI5NnMxNC4xOTk0NjY2Ny0zMS4xMjk2IDMxLjEyOTYtMzEuMTI5NmgyMTYuODE0OTMzMzNjMTYuOTMwMTMzMzMgMCAzMS4xMjk2IDE0LjE5OTQ2NjY3IDMxLjEyOTYgMzEuMTI5Ni0wLjU0NjEzMzMzIDE2LjkzMDEzMzMzLTE0LjE5OTQ2NjY3IDMxLjEyOTYtMzEuMTI5NiAzMS4xMjk2ek01NTYuMjM2OCA5ODQuNDA1MzMzMzNINDY3Ljc2MzJjLTE2LjkzMDEzMzMzIDAtMzEuMTI5Ni0xNC4xOTk0NjY2Ny0zMS4xMjk2LTMxLjEyOTZzMTQuMTk5NDY2NjctMzEuMTI5NiAzMS4xMjk2LTMxLjEyOTZoODguNDczNmMxNi45MzAxMzMzMyAwIDMxLjEyOTYgMTQuMTk5NDY2NjcgMzEuMTI5NiAzMS4xMjk2cy0xNC4xOTk0NjY2NyAzMS4xMjk2LTMxLjEyOTYgMzEuMTI5NnoiLz48cGF0aCBmaWxsPSIiIGQ9Ik01MTUuNTg0IDE1OC44OTA2NjY2N2gtMi41NmMtMTUuMzYgMC0yNy42NDgtMTIuMjg4LTI3LjY0OC0yNy42NDhWNzAuODI2NjY2NjdjMC0xNS4zNiAxMi4yODgtMjcuNjQ4IDI3LjY0OC0yNy42NDhoMi41NmMxNS4zNiAwIDI3LjY0OCAxMi4yODggMjcuNjQ4IDI3LjY0OHY2MC40MTZjMC41MTIgMTUuMzYtMTIuMjg4IDI3LjY0OC0yNy42NDggMjcuNjQ4eiIvPjxwYXRoIGZpbGw9IiNmZmMxMDIiIGQ9Ik01MTUuODIyOTMzMzMgMTU4LjEwNTZoLTIuNzMwNjY2NjZjLTE2LjM4NCAwLTI5LjQ5MTItMTMuMTA3Mi0yOS40OTEyLTI5LjQ5MTJWNjQuMTcwNjY2NjdjMC0xNi4zODQgMTMuMTA3Mi0yOS40OTEyIDI5LjQ5MTItMjkuNDkxMmgyLjczMDY2NjY2YzE2LjM4NCAwIDI5LjQ5MTIgMTMuMTA3MiAyOS40OTEyIDI5LjQ5MTJ2NjQuNDQzNzMzMzNjMC41NDYxMzMzMyAxNi4zODQtMTMuMTA3MiAyOS40OTEyLTI5LjQ5MTIgMjkuNDkxMnoiLz48L3N2Zz4=;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1508" y="1618" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-73" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1980" y="1580" as="sourcePoint" />
+            <mxPoint x="1920" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-74" value="&lt;b&gt;除最后安全起见的StoreLoad屏障，其他都会省略&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="1580" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-75" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.449;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="jjeB6mnx17xk38cIJRRu-74" target="jjeB6mnx17xk38cIJRRu-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1820" y="1770" as="sourcePoint" />
+            <mxPoint x="1870" y="1720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1920" y="1650" />
+              <mxPoint x="1374" y="1650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jjeB6mnx17xk38cIJRRu-77" value="即X86处理器中，只需在volatile写后插入一个StoreLoad屏障就可正确实现volatile写-读内存语义" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1620" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
